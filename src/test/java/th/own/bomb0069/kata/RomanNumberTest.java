@@ -5,11 +5,16 @@ import static org.junit.Assert.assertEquals;
 
 public class RomanNumberTest {
 
+    NumberConvertor numberConvertor = NumberConvertorFactory.create();
+
     @Test
     public void test1ShouldBeReturnI() {
-        NumberConvertor numberConvertor = NumberConvertorFactory.create();
-        String romanNumber = numberConvertor.getRomanNumber(1);
-        assertEquals("I", romanNumber);
+        assertEquals("I", numberConvertor.getRomanNumber(1));
+    }
+
+    @Test
+    public void test2ShouldBeReturnII() {
+        assertEquals("II", numberConvertor.getRomanNumber(2));
     }
 
 }
