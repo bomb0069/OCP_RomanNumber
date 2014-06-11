@@ -21,4 +21,9 @@ public class RomanNumberTest {
     public void test3ShouldBeReturnIII() {
         assertEquals("III", numberConvertor.getRomanNumber(3));
     }
+
+    @Test
+    public void test4ShouldBeReturnIV() {
+        assertEquals("IV", numberConvertor.getRomanNumber(4));
+    }
 }
