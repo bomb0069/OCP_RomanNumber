@@ -5,8 +5,8 @@ import java.util.Arrays;
 
 public class NumberConvertor {
 
-	List<RomanNumberRule> allNumber = Arrays.asList(new IVRule(),
-													new IRule());
+	List<AbstractRomanNumberRule> allNumber = Arrays.asList(new IVRule(),
+															new IRule());
 
 	public String getRomanNumber (int number) {
 		String romanNum = "";
