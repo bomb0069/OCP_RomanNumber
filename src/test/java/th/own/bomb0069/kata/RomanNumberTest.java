@@ -17,4 +17,8 @@ public class RomanNumberTest {
         assertEquals("II", numberConvertor.getRomanNumber(2));
     }
 
+    @Test
+    public void test3ShouldBeReturnIII() {
+        assertEquals("III", numberConvertor.getRomanNumber(3));
+    }
 }
