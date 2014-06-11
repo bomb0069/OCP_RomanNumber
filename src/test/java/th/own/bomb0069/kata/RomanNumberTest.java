@@ -18,4 +18,9 @@ public class RomanNumberTest {
     public void testIVRule() {
         assertEquals("IV", numberConvertor.getRomanNumber(4));
     }
+
+    @Test
+    public void testVRule() {
+        assertEquals("V", numberConvertor.getRomanNumber(5));
+    }
 }
