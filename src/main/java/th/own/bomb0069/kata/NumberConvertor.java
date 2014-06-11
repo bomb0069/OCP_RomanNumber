@@ -5,7 +5,15 @@ import java.util.Arrays;
 
 public class NumberConvertor {
 
-	List<AbstractRomanNumberRule> allNumber = Arrays.asList(new XRule(),
+	List<AbstractRomanNumberRule> allNumber = Arrays.asList(new MRule(),
+															new CMRule(),
+															new DRule(),
+															new CDRule(),
+															new CRule(),
+															new XCRule(),
+															new LRule(),
+															new XLRule(),
+															new XRule(),
 															new IXRule(),
 															new VRule(),
 															new IVRule(),

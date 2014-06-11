@@ -47,4 +47,15 @@ public class RomanNumberTest {
         assertRomanArabic("XXXIV", 34);
     }
 
+    @Test
+    public void testAnotherRule() {
+        assertRomanArabic("XL", 40);
+        assertRomanArabic("L", 50);
+        assertRomanArabic("XC", 90);
+        assertRomanArabic("C", 100);
+        assertRomanArabic("CD", 400);
+        assertRomanArabic("D", 500);
+        assertRomanArabic("CM", 900);
+        assertRomanArabic("M", 1000);
+    }
 }
