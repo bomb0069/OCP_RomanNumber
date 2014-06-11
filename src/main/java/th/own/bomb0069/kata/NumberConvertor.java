@@ -4,8 +4,10 @@ public class NumberConvertor {
 
 	public String getRomanNumber (int number) {
 		String romanNum = "";
-		for (int loop = 0 ;loop < number ; loop++)
+		while (number != 0) {
 			romanNum += "I";
+			number--;
+		}
 		return romanNum;
 	}
 
